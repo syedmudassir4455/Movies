@@ -23,44 +23,61 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .navbar-style {
-  background-color:cadetblue !important;
+  background-color: cadetblue !important;
 }
 
 .Nav-Link-a {
-    color:whitesmoke;
+  color: whitesmoke;
 }
 
 .navbar-brand-a {
-    color:yellow;
-    font-family: 'FontAwesome';
+  color: yellow;
+  font-family: "FontAwesome";
 }
 
-.AppContainer{
-  /* background-color: cadetblue; */
+.AppContainer {
   padding: 50px 0px 10px 0px;
   background-image: url(images/110388-beige-and-turquoise-blurred-background-vector.jpg);
   background-repeat: no-repeat;
-background-size: cover;
-  height:auto;
- 
+  background-size: cover;
+  height: auto;
 }
 
-.btn-primary{
+.btn-primary {
   border-color: #82878d;
   background-color: #28a745;
 }
 
-
-
 @media (min-width: 1200px) {
-  .container{
-      max-width: 970px;
+  .container {
+    max-width: 970px;
   }
 }
 
+table > tbody > tr > td > a {
+  color: black !important;
+}
 
+.page-item.active .page-link {
+  background-color: cadetblue !important;
+  border-color: #b4b8bc !important;
+}
+
+.NewMovie {
+  border-color: whitesmoke !important;
+  background-color: #33846c !important;
+  color: whitesmoke !important;
+}
+
+a:hover {
+  color: rgba(246, 248, 255, 0.555) !important;
+}
