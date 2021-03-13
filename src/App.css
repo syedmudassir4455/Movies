@@ -35,6 +35,35 @@
   background-color: cadetblue !important;
 }
 
+/* @media (min-width: 1080px) {
+  .navbar-expand-lg {
+    margin-right: -60px;
+
+  }
+} */
+
+/* @media (min-width: 360px) {
+  .navbar-expand-lg {
+    margin-right: -150px;
+  }
+}
+
+@media (min-width: 320px) {
+  .navbar-expand-lg {
+    margin-right: -155px;
+  }
+}
+
+@media (min-width: 280px) {
+  .navbar-expand-lg {
+    margin-right: -153px;
+  }
+}
+@media (min-width: 411px) {
+  .navbar-expand-lg {
+    margin-right: -155px;
+  }
+} */
 .Nav-Link-a {
   color: whitesmoke;
 }
@@ -44,14 +73,53 @@
   font-family: "FontAwesome";
 }
 
-.AppContainer {
+.app-container {
   padding: 50px 0px 10px 0px;
+
   background-image: url(images/110388-beige-and-turquoise-blurred-background-vector.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
 }
 
+@media (min-width: 280px) {
+  .container {
+    width: 165% !important;
+  }
+}
+/* @media (min-width: 280px) {
+  .AppContainer {
+    margin-right: 0px !important;
+  }
+} */
+
+/* @media (min-width: 375px) {
+  .AppContainer {
+     margin-right: -80px !important;
+  }
+} */
+/* @media (min-width: 360px) {
+  .app-container {
+    margin-right: -80px !important;
+  }
+} */
+
+/* .list-group {
+    flex-direction: row !important;
+    margin-bottom: 20px !important;
+  }
+} */
+/* @media (min-width: 1080px) {
+  .list-group {
+    flex-direction: column !important;
+  }
+} */
+
+/* @media (min-width: 540px) {
+  .list-group {
+    flex-direction: row !important;
+  }
+} */
 .btn-primary {
   border-color: #82878d;
   background-color: #28a745;
@@ -59,7 +127,13 @@
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 970px;
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .custom-collapse .collapse {
+    display: block;
   }
 }
 
@@ -80,4 +154,31 @@ table > tbody > tr > td > a {
 
 a:hover {
   color: rgba(246, 248, 255, 0.555) !important;
+}
+
+.bg-nav {
+  background-color: #5b6f82 !important;
+}
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.navbar {
+  padding: 1.5rem 1rem !important;
+  display: grid !important;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 280px) {
+  .navbar {
+    width: 160%;
+  }
+}
+
+@media(min-width:540px){
+  .navbar{
+    width: 165%;
+  }
 }

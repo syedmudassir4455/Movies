@@ -9,17 +9,15 @@ import NavBar from "./components/navBar";
 import LoginForm from "./components/loginForm";
 import RegisterForm from "./components/registerForm";
 
-
-
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
       // <React.Fragment>
-    <div >
+      <div>
         <NavBar />
-        <main className="container " >
+        <main className="container ">
           <Switch>
             <Route path="/register" component={RegisterForm} />
             <Route path="/login" component={LoginForm} />
@@ -31,9 +29,8 @@ class App extends Component {
             <Redirect from="/" exact to="/movies" />
             <Redirect to="/not-found" />
           </Switch>
-         
         </main>
-        </div>
+      </div>
       //  </React.Fragment>
     );
   }

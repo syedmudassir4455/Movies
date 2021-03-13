@@ -91,15 +91,16 @@ class Movies extends Component {
     const { totalCount, data: movies } = this.getPagedData();
 
     return (
-      <div className="row AppContainer">
-        <div className="col-3">
+      <div className="row app-container">
+        <div className="col col-xl col-lg col-md col-sm ">
           <ListGroup
             items={this.state.genres}
             selectedItem={this.state.selectedGenre}
             onItemSelect={this.handleGenreSelect}
           />
         </div>
-        <div className="col">
+
+        <div className="col col-sm col-md col-lg col-xl ">
           <Link to="/movies/new" className="btn NewMovie">
             New Movie
           </Link>

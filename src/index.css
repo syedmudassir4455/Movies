@@ -1,19 +1,14 @@
 body {
   margin: 0;
   padding: 0 0 0 0;
-background-image: url(images/ea80e8bcf70c0a180cdc6905afb3f1c1.jpg);
-background-repeat: no-repeat;
-
-  
+  background-image: url(images/ea80e8bcf70c0a180cdc6905afb3f1c1.jpg);
+  /* background-size: cover; */
 }
-
+/* 
 .navbar {
-  margin-bottom: 30px;
-
-}
+  
+} */
 
 .clickable {
   cursor: pointer;
 }
-
-
