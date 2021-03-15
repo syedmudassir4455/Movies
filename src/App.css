@@ -156,10 +156,6 @@ a:hover {
   color: rgba(246, 248, 255, 0.555) !important;
 }
 
-.bg-nav {
-  background-color: #5b6f82 !important;
-}
-
 .row {
   margin-right: 0px !important;
   margin-left: 0px !important;
@@ -167,7 +163,7 @@ a:hover {
 
 .navbar {
   padding: 1.5rem 1rem !important;
-  display: grid !important;
+  /* display: grid !important; */
   margin-bottom: 30px;
 }
 

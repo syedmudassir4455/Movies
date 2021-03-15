@@ -101,7 +101,7 @@ class Movies extends Component {
         </div>
 
         <div className="col-md-9">
-          <Link to="/movies/new" className="btn NewMovie">
+          <Link to="/movies/new" className="btn NewMovie mt-2">
             New Movie
           </Link>
           <p style={{ color: "whitesmoke" }}>

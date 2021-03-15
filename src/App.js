@@ -5,7 +5,7 @@ import MovieForm from "./components/movieForm";
 import Customers from "./components/customers";
 import Rentals from "./components/rentals";
 import NotFound from "./components/notFound";
-import NavBar from "./components/navBar";
+import NavBar2 from "./components/navbar2";
 import LoginForm from "./components/loginForm";
 import RegisterForm from "./components/registerForm";
 
@@ -16,7 +16,7 @@ class App extends Component {
     return (
       // <React.Fragment>
       <div>
-        <NavBar />
+        <NavBar2 />
         {/* <div className="container"> */}
         <div className="container">
         {/* <main className="container-fluid"> */}
