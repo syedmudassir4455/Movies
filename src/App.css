@@ -82,11 +82,11 @@
   height: auto;
 }
 
-@media (min-width: 280px) {
+/* @media (min-width: 280px) {
   .container {
     width: 165% !important;
   }
-}
+} */
 /* @media (min-width: 280px) {
   .AppContainer {
     margin-right: 0px !important;
@@ -124,18 +124,18 @@
   border-color: #82878d;
   background-color: #28a745;
 }
-
+/* 
 @media (min-width: 1200px) {
   .container {
     max-width: 800px;
   }
-}
+} */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .custom-collapse .collapse {
     display: block;
   }
-}
+} */
 
 table > tbody > tr > td > a {
   color: black !important;
@@ -171,7 +171,7 @@ a:hover {
   margin-bottom: 30px;
 }
 
-@media (min-width: 280px) {
+/* @media (min-width: 280px) {
   .navbar {
     width: 160%;
   }
@@ -181,4 +181,4 @@ a:hover {
   .navbar{
     width: 165%;
   }
-}
+} */

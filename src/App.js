@@ -17,7 +17,9 @@ class App extends Component {
       // <React.Fragment>
       <div>
         <NavBar />
-        <main className="container ">
+        {/* <div className="container"> */}
+        <div className="container">
+        {/* <main className="container-fluid"> */}
           <Switch>
             <Route path="/register" component={RegisterForm} />
             <Route path="/login" component={LoginForm} />
@@ -29,7 +31,8 @@ class App extends Component {
             <Redirect from="/" exact to="/movies" />
             <Redirect to="/not-found" />
           </Switch>
-        </main>
+        {/* </main> */}
+      </div>
       </div>
       //  </React.Fragment>
     );

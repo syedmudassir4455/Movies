@@ -92,7 +92,7 @@ class Movies extends Component {
 
     return (
       <div className="row app-container">
-        <div className="col col-xl col-lg col-md col-sm ">
+        <div className="col-md-3">
           <ListGroup
             items={this.state.genres}
             selectedItem={this.state.selectedGenre}
@@ -100,7 +100,7 @@ class Movies extends Component {
           />
         </div>
 
-        <div className="col col-sm col-md col-lg col-xl ">
+        <div className="col-md-9">
           <Link to="/movies/new" className="btn NewMovie">
             New Movie
           </Link>
